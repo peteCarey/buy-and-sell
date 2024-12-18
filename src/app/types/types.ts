@@ -1,6 +1,7 @@
 export interface Listing { 
     id: string,
-    name: string,
-    description: string,
-    price: number,
+    name: any,
+    description: any,
+    price: any,
+    views: number,
 }
